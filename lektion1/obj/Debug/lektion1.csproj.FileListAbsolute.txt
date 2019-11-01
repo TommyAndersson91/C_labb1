@@ -1,0 +1,5 @@
+/Users/tommyandersson/Desktop/ITHS/C# Grund/projekt/lektion1/lektion1/obj/Debug/lektion1.csprojAssemblyReference.cache
+/Users/tommyandersson/Desktop/ITHS/C# Grund/projekt/lektion1/lektion1/bin/Debug/lektion1.exe
+/Users/tommyandersson/Desktop/ITHS/C# Grund/projekt/lektion1/lektion1/bin/Debug/lektion1.pdb
+/Users/tommyandersson/Desktop/ITHS/C# Grund/projekt/lektion1/lektion1/obj/Debug/lektion1.exe
+/Users/tommyandersson/Desktop/ITHS/C# Grund/projekt/lektion1/lektion1/obj/Debug/lektion1.pdb

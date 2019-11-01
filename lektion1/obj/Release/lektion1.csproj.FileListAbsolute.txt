@@ -1,0 +1,2 @@
+/Users/tommyandersson/Desktop/ITHS/C# Grund/projekt/lektion1/lektion1/bin/Release/lektion1.exe
+/Users/tommyandersson/Desktop/ITHS/C# Grund/projekt/lektion1/lektion1/obj/Release/lektion1.exe
