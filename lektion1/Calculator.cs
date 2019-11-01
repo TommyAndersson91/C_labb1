@@ -1,7 +1,6 @@
 ﻿namespace lektion1
 {
-    partial class MainClass
-    {
+ 
         class Calculator
         {
             public int FirstNumber;
@@ -40,6 +39,6 @@
         }
     }
 
-}
+
 
 

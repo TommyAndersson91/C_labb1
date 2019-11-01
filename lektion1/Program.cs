@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace lektion1
 {
-    partial class MainClass
+     class MainClass
     {
 
         public static void Main(string[] args)
@@ -58,7 +58,7 @@ namespace lektion1
                             Console.WriteLine("Number successfully added to memory");
                             break;
                         case "5":
-                            calculator.NumberInMemory = 0;
+                            calculator = new Calculator();
                             Console.WriteLine("Number in memory cleared");
                             break;
                         case "6":
