@@ -47,8 +47,14 @@ namespace lektion1
                             break;
                         case "3":
                             EnterNumbers();
-                            Console.WriteLine("Summan av talen mellan tal ett & två är " + calculator.SumInBetween());
-                            
+                            if (calculator.FirstNumber < calculator.SecondNumber)
+                            {
+                                Console.WriteLine("Summan av talen mellan tal ett & två är " + calculator.SumInBetween());
+                            } else
+                            {
+                                Console.WriteLine("Första talet behöver vara mindre än det andra");
+                                EnterNumbers(); 
+                            }
                             break;
                         case "4":
                             Console.WriteLine("Skriv in ett tal som du vill spara i minnet");
