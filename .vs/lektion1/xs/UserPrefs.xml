@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.lektion1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="lektion1/Program.cs">
     <Files>
-      <File FileName="lektion1/Program.cs" Line="78" Column="1" />
-      <File FileName="lektion1/Calculator.cs" Line="1" Column="1" />
+      <File FileName="lektion1/Program.cs" Line="3" Column="19" />
+      <File FileName="lektion1/Calculator.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

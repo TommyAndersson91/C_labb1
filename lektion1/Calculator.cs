@@ -12,8 +12,6 @@
                 FirstNumber = 0;
                 SecondNumber = 0;
                 NumberInMemory = 0;
-
-
             }
             public override string ToString()
             {

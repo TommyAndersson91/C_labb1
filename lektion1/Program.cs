@@ -2,27 +2,18 @@
 
 namespace lektion1
 {
-     class MainClass
+        class MainClass
     {
-
         public static void Main(string[] args)
         {
-
-            {
-                bool on = true;
-                var calculator = new Calculator();
-                void EnterNumbers()
-                {
-                    Console.WriteLine("Skriv in tal ett");
-                    calculator.FirstNumber = Int32.Parse(Console.ReadLine());
-                    Console.WriteLine("Skriv in det andra talet");
-                    calculator.SecondNumber = Int32.Parse(Console.ReadLine());
-                }
+            Calculator calculator = new Calculator();
+            bool on = true;
+                
                 while (on)
                 {
 
                     Console.WriteLine
-                     (
+                    (
                     "[1]. Add two numbers"+
                     "\n[2]. Multiply two numbers"+
                     "\n[3]. Sum the numbers between two numbers" +
@@ -38,22 +29,22 @@ namespace lektion1
                     switch (choice)
                     {
                         case "1":
-                            EnterNumbers();
+                            EnterNumbers(calculator);
                             Console.WriteLine("Summan av talen är: " + calculator.SumNumbers());
                             break;
                         case "2":
-                            EnterNumbers();
+                            EnterNumbers(calculator);
                             Console.WriteLine("Multiplikationen av talen summeras till: " + calculator.MultiplyNumbers());
                             break;
                         case "3":
-                            EnterNumbers();
+                            EnterNumbers(calculator);
                             if (calculator.FirstNumber < calculator.SecondNumber)
                             {
                                 Console.WriteLine("Summan av talen mellan tal ett & två är " + calculator.SumInBetween());
                             } else
                             {
                                 Console.WriteLine("Första talet behöver vara mindre än det andra");
-                                EnterNumbers(); 
+                                EnterNumbers(calculator); 
                             }
                             break;
                         case "4":
@@ -77,10 +68,17 @@ namespace lektion1
                             break;
                     }
                 }
-            }
+            
+        }
+
+        static void EnterNumbers(Calculator calculator)
+        {
+            Console.WriteLine("Skriv in tal ett");
+            calculator.FirstNumber = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Skriv in det andra talet");
+            calculator.SecondNumber = Int32.Parse(Console.ReadLine());
         }
     }
-
 }
 
 
